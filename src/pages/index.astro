@@ -1,0 +1,608 @@
+---
+import "../styles/fonts.css";
+import "../styles/index.css";
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="generator" content={Astro.generator} />
+    <meta
+      name="description"
+      content="Full-stack developer skilled in HTML, CSS, JavaScript, React, and Vue. Passionate about user-friendly design, performance optimization, and emerging tech. Fluent in Italian, Romanian, and English, with experience in web apps and blockchain."
+    />
+    <title>kratess.dev — Full-Stack Developer</title>
+
+    <!-- Standard Meta Tags -->
+    <meta name="title" content="kratess.dev — Full-Stack Developer" />
+    <meta
+      name="description"
+      content="Full-stack developer skilled in HTML, CSS, JavaScript, React, and Vue. Passionate about user-friendly design, performance optimization, and emerging tech. Fluent in Italian, Romanian, and English, with experience in web apps and blockchain."
+    />
+    <meta
+      name="keywords"
+      content="Full-Stack Developer, Front-End Developer, Back-End Developer, Web Development, HTML, CSS, JavaScript, React, Vue, Blockchain, User Experience, UX Design, Full-Stack Engineer, Software Development, UI/UX, Software Engineering"
+    />
+    <meta name="robots" content="index, follow" />
+    <meta name="author" content="Doru Parvu" />
+    <meta name="language" content="en" />
+    <meta name="revisit-after" content="7 days" />
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://kratess.dev" />
+
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="kratess.dev — Full-Stack Developer" />
+    <meta
+      property="og:description"
+      content="Full-stack developer skilled in HTML, CSS, JavaScript, React, and Vue. Passionate about user-friendly design, performance optimization, and emerging tech. Fluent in Italian, Romanian, and English, with experience in web apps and blockchain."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://kratess.dev" />
+    <meta
+      property="og:image"
+      content="https://yourwebsite.com/path/to/image.jpg"
+    />
+    <meta property="og:locale" content="en_US" />
+
+    <!-- Twitter Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="kratess.dev — Full-Stack Developer" />
+    <meta
+      name="twitter:description"
+      content="Full-stack developer skilled in HTML, CSS, JavaScript, React, and Vue. Passionate about user-friendly design, performance optimization, and emerging tech. Fluent in Italian, Romanian, and English, with experience in web apps and blockchain."
+    />
+    <meta
+      name="twitter:image"
+      content="https://yourwebsite.com/path/to/image.jpg"
+    />
+  </head>
+  <body class="bg-black space-y-64 md:space-y-96 lg:space-y-128">
+    <!-- START -->
+    <div>
+      <!-- HEADER -->
+      <header>
+        <nav class="container md:hidden h-[96px] flex justify-start items-center">
+          <span class="text-18">&lt;kratess.dev /&gt;</span>
+        </nav>
+        <nav class="hidden md:flex-center w-100 h-[128px]">
+          <ul class="hidden md:flex space-x-64">
+            <li>
+              <a class="text-18" href={"javascript: smoothScroll('about');"}
+                >About</a
+              >
+            </li>
+            <li>
+              <a class="text-18" href={"javascript: smoothScroll('projects');"}
+                >Projects</a
+              >
+            </li>
+            <li>
+              <a class="text-18" href={"javascript: smoothScroll('resources');"}
+                >Resources</a
+              >
+            </li>
+            <li>
+              <a class="text-18" href={"javascript: smoothScroll('interests');"}
+                >Interests</a
+              >
+            </li>
+            <li>
+              <a class="text-18" href={"javascript: smoothScroll('contact');"}
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <!-- MAIN -->
+      <div class="container md:mt-[45px] lg:mt-[75px] space-y-16">
+        <div class="d-flex flex-col">
+          <h1
+            class="text-48 md:text-64 lg:text-96 xl:text-128 font-medium leading-1.0 text-white"
+          >
+            Full-Stack
+          </h1>
+          <div
+            class="md:flex flex-row-reverse justify-between space-y-16 md:space-y-0"
+          >
+            <h1
+              class="text-48 md:text-64 lg:text-96 xl:text-128 font-medium leading-1.0 text-white text-right"
+            >
+              Developer
+            </h1>
+            <p class="max-w-[360px] pl-8 lg:pl-12 xl:pl-16">
+              <em>Building</em> tomorrow's technology <em>today</em>, with code
+              that's designed for
+              <em>clarity</em>, <em>simplicity</em>, and <em>efficiency</em>.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SEPARATOR -->
+    <div id="about" class="flex justify-center space-x-16 overflow-hidden">
+      <span class="text-64 font-bold leading-1.0 whitespace-nowrap uppercase"
+        >Seeking for a mission to accomplish</span
+      >
+      <img
+        class="w-[64px] h-[64px]"
+        src="/svgs/burst-star.svg"
+        alt="Star"
+        width="64"
+        height="64"
+        fetchpriority="high"
+      />
+      <span class="text-64 font-bold leading-1.0 whitespace-nowrap uppercase"
+        >Seeking for a mission to accomplish</span
+      >
+    </div>
+
+    <!-- ABOUT -->
+    <div
+      class="container flex flex-col xl:flex-row xl:space-x-64 space-y-32 lg:space-y-48 xl:space-y-0"
+    >
+      <div class="flex justify-center">
+        <div class="relative w-full lg:w-[684px] xl:w-[540px]">
+          <img
+            class="absolute left-[-128px] md:left-[-256px] top-[-192px] w-[256px] md:w-[384px] xl:w-[512px] h-[512px] xl:h-[640px] -z-1"
+            src="/svgs/topographic.svg"
+            alt="Topographic"
+            width="512"
+            height="640"
+            fetchpriority="low"
+          />
+          <img
+            class="w-full aspect-[8/5] xl:aspect-[3/4] object-cover rounded-32 object-[50%_25%]"
+            src="/images/me.webp"
+            alt="Me"
+            width="684"
+            height="720"
+            fetchpriority="high"
+          />
+        </div>
+      </div>
+      <div class="space-y-32">
+        <div class="flex flex-col items-end space-y-32">
+          <span
+            class="bg-black text-24 leading-1.0 border-l border-r border-white px-16 py-8"
+            >/About</span
+          >
+          <div class="space-y-16">
+            <p>
+              My name is <em>Doru</em>, and I'm originally from Romania but have
+              lived in <em>Italy</em> since I was seven.
+            </p>
+            <p>
+              My <em>fascination with computers</em> started at five when I played
+              on my uncle's old PC. In Romania, I often visited the library to use
+              local computers, as my family couldn't afford one for me.
+            </p>
+            <p>
+              As I grew up, my <em>interest in computers</em> deepened, leading me
+              to launch my first Minecraft server at eleven. This experience ignited
+              my desire to <em>create and improve</em> beyond what was available
+              online.
+            </p>
+            <p>
+              This marked the start of my <em>journey into the tech world</em>,
+              where I continually strive to learn something new every day.
+            </p>
+          </div>
+        </div>
+        <div class="flex flex-wrap gap-12">
+          <span
+            class="text-16 font-medium leading-1.0 border border-white px-16 py-8 rounded"
+            >HTML</span
+          >
+          <span
+            class="text-16 font-medium leading-1.0 border border-white px-16 py-8 rounded"
+            >CSS</span
+          >
+          <span
+            class="text-16 font-medium leading-1.0 border border-white px-16 py-8 rounded"
+            >SCSS/SASS</span
+          >
+          <span
+            class="text-16 font-medium leading-1.0 border border-white px-16 py-8 rounded"
+            >JavaScript</span
+          >
+          <span
+            class="text-16 font-medium leading-1.0 border border-white px-16 py-8 rounded"
+            >TypeScript</span
+          >
+          <span
+            class="text-16 font-medium leading-1.0 border border-white px-16 py-8 rounded"
+            >React.js</span
+          >
+          <span
+            class="text-16 font-medium leading-1.0 border border-white px-16 py-8 rounded"
+            >Next.js</span
+          >
+          <span
+            class="text-16 font-medium leading-1.0 border border-white px-16 py-8 rounded"
+            >Redux</span
+          >
+          <span
+            class="text-16 font-medium leading-1.0 border border-white px-16 py-8 rounded"
+            >Vue.js</span
+          >
+          <span
+            class="text-16 font-medium leading-1.0 border border-white px-16 py-8 rounded"
+            >Nuxt.js</span
+          >
+          <span
+            class="text-16 font-medium leading-1.0 border border-white px-16 py-8 rounded"
+            >Vuex</span
+          >
+          <span
+            class="text-16 font-medium leading-1.0 border border-white px-16 py-8 rounded"
+            >Astro</span
+          >
+          <span
+            class="text-16 font-medium leading-1.0 border border-white px-16 py-8 rounded"
+            >Bootstrap</span
+          >
+          <span
+            class="text-16 font-medium leading-1.0 border border-white px-16 py-8 rounded"
+            >Tailwind</span
+          >
+          <span
+            class="text-16 font-medium leading-1.0 border border-white px-16 py-8 rounded"
+            >Node.js</span
+          >
+          <span
+            class="text-16 font-medium leading-1.0 border border-white px-16 py-8 rounded"
+            >PHP</span
+          >
+          <span
+            class="text-16 font-medium leading-1.0 border border-white px-16 py-8 rounded"
+            >Java</span
+          >
+          <span
+            class="text-16 font-medium leading-1.0 border border-white px-16 py-8 rounded"
+            >Spring Boot</span
+          >
+          <span
+            class="text-16 font-medium leading-1.0 border border-white px-16 py-8 rounded"
+            >C</span
+          >
+          <span
+            class="text-16 font-medium leading-1.0 border border-white px-16 py-8 rounded"
+            >Python</span
+          >
+          <span
+            class="text-16 font-medium leading-1.0 border border-white px-16 py-8 rounded"
+            >Lua</span
+          >
+          <span
+            class="text-16 font-medium leading-1.0 border border-white px-16 py-8 rounded"
+            >MySQL</span
+          >
+          <span
+            class="text-16 font-medium leading-1.0 border border-white px-16 py-8 rounded"
+            >MongoDB</span
+          >
+          <span
+            class="text-16 font-medium leading-1.0 border border-white px-16 py-8 rounded"
+            >SurrealDB</span
+          >
+        </div>
+      </div>
+    </div>
+
+    <!-- SEPARATOR -->
+    <div
+      id="projects"
+      class="flex-center max-w-[1920px] h-[128px] md:h-[160px] lg:h-[192px] bg-[url('/images/separator_projects.webp')] bg-center mx-auto"
+    >
+      <div class="container xl:max-w-[1664px]">
+        <span
+          class="bg-black text-24 leading-1.0 border-l border-r border-white px-16 py-8"
+          >/Projects</span
+        >
+      </div>
+    </div>
+
+    <!-- PROJECTS -->
+    <div
+      class="container xl:max-w-[1664px] space-y-64 md:space-y-96 lg:space-y-128"
+    >
+      <div class="max-w-[1200px]">
+        <div
+          class="lg:flex items-start lg:space-x-48 xl:space-x-64 space-y-32 lg:space-y-0"
+        >
+          <img
+            class="w-full lg:w-[480px] xl:w-[640px] aspect-[16/9] object-cover rounded-16"
+            src="/images/lume.webp"
+            alt="Lume"
+            width="704"
+            height="396"
+            fetchpriority="low"
+          />
+          <div class="flex-1 space-y-32">
+            <div>
+              <span class="text-24 leading-1.0">Lume </span>
+              <span class="text-24 leading-1.0 text-gray">— News Website</span>
+            </div>
+            <div class="flex flex-wrap gap-12">
+              <span
+                class="text-16 font-medium leading-1.0 border border-white px-16 py-8 rounded"
+                >Next.js</span
+              >
+              <span
+                class="text-16 font-medium leading-1.0 border border-white px-16 py-8 rounded"
+                >Node.js</span
+              >
+              <span
+                class="text-16 font-medium leading-1.0 border border-white px-16 py-8 rounded"
+                >TypeScript</span
+              >
+              <span
+                class="text-16 font-medium leading-1.0 border border-white px-16 py-8 rounded"
+                >Tailwind</span
+              >
+              <span
+                class="text-16 font-medium leading-1.0 border border-white px-16 py-8 rounded"
+                >MySQL</span
+              >
+            </div>
+            <p>
+              Lume is an ambitious next-generation <em>news website</em>. Each
+              user has their <em>own profile</em>, a <em>dedicated articles</em>
+              section, and the ability to <em>create new articles</em> using the
+              intuitive article editor built into Lume.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="max-w-[1200px] ml-auto">
+        <div
+          class="lg:flex items-start flex-row-reverse lg:space-x-48 lg:space-x-reverse xl:space-x-64 xl:space-x-reverse space-y-32 lg:space-y-0"
+        >
+          <img
+            class="w-full lg:w-[480px] xl:w-[640px] aspect-[16/9] object-cover rounded-16"
+            src="/images/newlife.webp"
+            alt="NewLife"
+            width="704"
+            height="396"
+            fetchpriority="low"
+          />
+          <div class="flex-1 space-y-32">
+            <div>
+              <span class="text-24 leading-1.0">NewLife </span>
+              <span class="text-24 leading-1.0 text-gray"
+                >— Fivem GTA Server</span
+              >
+            </div>
+            <div class="flex flex-wrap gap-12">
+              <span
+                class="text-16 font-medium leading-1.0 border border-white px-16 py-8 rounded"
+                >Lua</span
+              >
+              <span
+                class="text-16 font-medium leading-1.0 border border-white px-16 py-8 rounded"
+                >React.js</span
+              >
+              <span
+                class="text-16 font-medium leading-1.0 border border-white px-16 py-8 rounded"
+                >Node.js</span
+              >
+              <span
+                class="text-16 font-medium leading-1.0 border border-white px-16 py-8 rounded"
+                >TypeScript</span
+              >
+              <span
+                class="text-16 font-medium leading-1.0 border border-white px-16 py-8 rounded"
+                >MySQL</span
+              >
+            </div>
+            <p>
+              This project involves <em>complex management</em> across <em
+                >database</em
+              >,
+              <em>back-end</em>, <em>game development</em>, <em>front-end</em>,
+              and user experience. <em>FiveM</em>
+              is a modded version of <em>GTA</em> that allows you to create your
+              own server and build your community.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SEPARATOR -->
+    <div
+      id="resources"
+      class="flex-center max-w-[1920px] h-[128px] md:h-[160px] lg:h-[192px] bg-[url('/images/separator_resources.webp')] bg-center mx-auto"
+    >
+      <div class="container xl:max-w-[1664px]">
+        <span
+          class="bg-black text-24 leading-1.0 border-l border-r border-white px-16 py-8"
+          >/Resources</span
+        >
+      </div>
+    </div>
+
+    <!-- RESOURCES -->
+    <div class="container flex items-center xl:max-w-[1664px] xl:space-x-64">
+      <img
+        class="hidden xl:block w-[512px] h-[512px]"
+        src="/svgs/spiral.svg"
+        alt="Spiral"
+        width="512"
+        height="512"
+        fetchpriority="low"
+      />
+      <div class="space-y-16">
+        <hr class="bg-gray border-gray" />
+        <div class="px-16 space-y-32">
+          <span
+            class="text-24 leading-1.0 underline underline-offset-4 decoration-1"
+            >Templates</span
+          >
+          <p>
+            <em>Free web templates</em> crafted from Figma designs. These templates
+            are thoughtfully designed to be visually appealing and user-friendly,
+            making it easy for anyone to create a professional-looking website.
+          </p>
+          <div class="flex flex-wrap gap-12">
+            <span
+              class="text-16 font-medium leading-1.0 border border-white px-16 py-8 rounded"
+              >HTML</span
+            >
+            <span
+              class="text-16 font-medium leading-1.0 border border-white px-16 py-8 rounded"
+              >Tailwind</span
+            >
+          </div>
+        </div>
+        <hr class="border-gray" />
+      </div>
+    </div>
+
+    <!-- INTERESTS -->
+    <div
+      class="container flex flex-col xl:flex-row xl:space-x-64 space-y-32 lg:space-y-48 xl:space-y-0"
+    >
+      <div class="space-y-32">
+        <div class="flex flex-col items-end space-y-32">
+          <span
+            class="bg-black text-24 leading-1.0 border-l border-r border-white px-16 py-8"
+            >/Interests</span
+          >
+          <div class="space-y-16">
+            <p>
+              I enjoy playing <em>chess</em>. I consider myself a <em
+                >good storyteller</em
+              >, having watched all the major TV series the world has to offer,
+              and I am still eagerly waiting for something new to emerge. My
+              favorite series? Mr. Robot.
+            </p>
+            <p>
+              I speak three languages: <em>Italian</em>, <em>Romanian</em>, and <em
+                >English</em
+              >, and I am currently <em>striving to learn Russian</em>. Another
+              of my interests is society.
+            </p>
+            <p>
+              I love discussing <em>environmental issues</em>, <em>politics</em
+              >, and <em>history</em>. When it comes to programming, I aim to
+              learn something new every day. I have a passion for <em
+                >programming languages</em
+              >, <em>language design</em>, and <em>syntax</em>, along with <em
+                >optimization</em
+              >, <em>memory management</em>, and <em>space</em>
+              and <em>time complexity</em>.
+            </p>
+            <p>
+              I am also fascinated by <em>emerging technologies</em> like <em
+                >blockchain</em
+              > and <em>AI</em>. The concept of blockchain, along with the work
+              that supports it, captivates me. I admire the <em
+                >new programming languages</em
+              >, <em>databases</em>, and <em>frameworks</em>
+              that continue to emerge.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="flex justify-center">
+        <div class="relative w-full lg:w-[684px] xl:w-[540px]">
+          <img
+            id="interests"
+            class="absolute right top w-[256px] xl:w-[512px] h-[256px] xl:h-[512px] translate-x-1/2 -translate-y-1/4 lg:-translate-y-32 xl:-translate-y-1/4 -z-1"
+            src="/svgs/topographic2.svg"
+            alt="Topographic"
+            width="512"
+            height="512"
+            fetchpriority="low"
+          />
+          <img
+            class="w-full aspect-[3/4] object-cover rounded-16"
+            src="/images/me2.webp"
+            alt="Me"
+            width="684"
+            height="912"
+            fetchpriority="low"
+          />
+        </div>
+      </div>
+    </div>
+
+    <!-- END -->
+    <div class="relative overflow-hidden">
+      <img
+        class="absolute w-[256px] sm:w-[384px] md:w-[512px] h-[256px] sm:h-[384px] md:h-[512px] left xl:left-full top -translate-x-1/2 xl:-translate-x-1/4 -translate-y-1/2 xl:-translate-y-0"
+        src="/svgs/looper.svg"
+        alt="Looper"
+        width="512"
+        height="512"
+        fetchpriority="low"
+      />
+
+      <div class="space-y-64 md:space-y-96 lg:space-y-128">
+        <!-- CONTACT -->
+        <div id="contact" class="container flex flex-col items-end space-y-32">
+          <span
+            class="bg-black text-24 leading-1.0 border-l border-r border-white px-16 py-8"
+            >/Resources</span
+          >
+          <p class="max-w-[360px] text-right pl-8 lg:pl-12 xl:pl-16">
+            <em>Building</em> tomorrow's technology <em>today</em>, with code
+            that's designed for
+            <em>clarity</em>, <em>simplicity</em>, and <em>efficiency</em>.
+          </p>
+          <form method="get" action="/files/CV Doru Parvu - Developer eng.pdf">
+            <button
+              class="bg-white h-[48px] font-firaMono text-18 text-black px-32 rounded"
+              type="submit"
+            >
+              Download CV
+            </button>
+          </form>
+        </div>
+
+        <!-- FOOTER -->
+        <footer class="container flex justify-center space-x-32 !mb-32">
+          <a href="mailto:parvudoruionut@gmail.com" target="_blank">
+            <span
+              class="block text-16 font-medium leading-1.0 border border-white px-16 py-8 rounded"
+              >Email</span
+            >
+          </a>
+          <a href="https://www.linkedin.com/in/doru-parvu/" target="_blank">
+            <span
+              class="block text-16 font-medium leading-1.0 border border-white px-16 py-8 rounded"
+              >LinkedIn</span
+            >
+          </a>
+          <a href="https://github.com/kratess" target="_blank">
+            <span
+              class="block text-16 font-medium leading-1.0 border border-white px-16 py-8 rounded"
+              >Github</span
+            >
+          </a>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
+
+<script is:inline>
+  function smoothScroll(id) {
+    const element = document.getElementById(id);
+    const elementYPosition =
+      element.getBoundingClientRect().top + window.scrollY;
+
+    window.scrollTo({
+      top: elementYPosition,
+      behavior: "smooth",
+    });
+  }
+</script>

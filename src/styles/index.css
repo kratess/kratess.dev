@@ -1,0 +1,21 @@
+html, body {
+  overflow-x: hidden;
+}
+
+* {
+  font-family: "FiraMono";
+  color: theme("colors.white");
+}
+
+p {
+  font-family: "OpenSans";
+  font-size: 18px;
+  line-height: 1.4;
+  color: theme("colors.gray");
+}
+
+p > em {
+  font-family: "OpenSans";
+  font-style: normal;
+  color: theme("colors.white");
+}
